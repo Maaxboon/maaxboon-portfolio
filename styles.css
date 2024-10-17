@@ -1,3 +1,4 @@
+/* CSS Reset */
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,7 @@
   list-style-type: none;
 }
 
+/* Header Section */
 header {
   position: fixed;
   top: 1rem;
@@ -25,6 +27,7 @@ header {
   z-index: 1000;
 }
 
+/* Logo styling */
 .logo {
   color: white;
   font-size: 1.3rem;
@@ -33,21 +36,24 @@ header {
   transition: 0.3s ease-in-out;
 }
 
+/* Logo on hover */
 .logo:hover {
   transform: scale(1.1);
 }
 
+/* Navigation Links */
 .nav-links {
   display: flex;
   gap: 2rem;
 }
 
+/* Links anchor tags styling */
 li a {
   position: relative;
   color: white;
   font-weight: 300;
 }
-
+/* Link anchor tags before clicking */
 li a::before {
   position: absolute;
   content: "";
@@ -63,6 +69,7 @@ li a::before {
 li a:hover::before {
   width: 100%;
 }
+/* Button on visiting/clicking */
 .visit-btn {
   padding: 0.8rem 1.5rem;
   border-radius: 3rem;
@@ -85,6 +92,7 @@ li a:hover::before {
   display: none;
 }
 
+/* About section styling */
 section {
   min-height: 100vh;
   padding: 8rem 12%;
@@ -151,6 +159,7 @@ section {
   display: flex;
   gap: 2rem;
 }
+/* Linkedin and GitHub Buttons */
 .socials i {
   font-size: 2rem;
   cursor: pointer;
@@ -167,6 +176,7 @@ section {
   margin-bottom: 3rem;
 }
 
+/* Experience Section */
 .experience-info {
   display: flex;
   align-items: center;
@@ -221,6 +231,8 @@ section {
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(to bottom, #009dff, #ff00ff);
 }
+
+/* Projects section */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -260,6 +272,7 @@ section {
   font-weight: 500;
 }
 
+/* Contact Section input */
 .input-box {
   display: flex;
   flex-direction: column;
@@ -288,6 +301,7 @@ section {
   transform: translate(50%, -50%);
 }
 
+/* Footer section */
 footer {
   bottom: 0;
   left: 0;
@@ -313,6 +327,8 @@ footer ul li a {
   margin-top: 2rem;
 }
 
+/* Responsiveness with media queries */
+/* Responsiveness for larger screens */
 @media (max-width: 1280px) {
   header {
     padding: 1rem 2rem;
@@ -336,6 +352,7 @@ footer ul li a {
   }
 }
 
+/* Responsiveness for medium size screens */
 @media (max-width: 768px) {
   header {
     gap: 1rem;
@@ -368,6 +385,7 @@ footer ul li a {
   }
 }
 
+/* Responsiveness for smaller screens */
 @media (max-width: 600px) {
   header #menu-icon {
     display: block;
