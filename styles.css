@@ -272,6 +272,59 @@ section {
   font-weight: 500;
 }
 
+/* Skills Section */
+.skills-section {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.skills-section .skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skills-section .skills-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-section .skills-card:hover {
+  transform: translateY(-10px);
+}
+
+.skills-section .skills-card h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+.skills-section .skills-card i {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #6b6b6b; /* Adjust icon color */
+}
+
+.skills-section .skills-card i:hover {
+  color: #007bff; /* Hover color effect for icons */
+}
+
+.skills-section .section-title {
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: #333;
+  font-family: "YourPreferredFont", cursive; /* Add your custom cursive font */
+}
+
 /* Contact Section input */
 .input-box {
   display: flex;
