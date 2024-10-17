@@ -47,6 +47,10 @@ You can contact me via email through the contact form.
 
 ![Skills Section](img/screenshot-skills.png)
 
+### Responsiveness
+
+![Responsiveness Test](img/responsiveness.png)
+
 ## Installation
 
 1. Clone the repository:
